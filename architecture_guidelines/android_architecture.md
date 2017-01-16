@@ -1,3 +1,5 @@
+Modified version of the excellent work available here https://github.com/ribot/android-guidelines. I just added some stuffs and made some modifications regarding my personnal needs.
+
 # Architecture Guidelines
 
 The architecture of our Android apps is based on the [MVP](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93presenter) (Model View Presenter) pattern.
