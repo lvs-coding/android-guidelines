@@ -6,33 +6,32 @@ Modified version of the excellent work available here https://github.com/ribot/a
 
 New projects should follow the Android Gradle project structure that is defined on the [Android Gradle plugin user guide](http://tools.android.com/tech-docs/new-build-system/user-guide#TOC-Project-Structure). 
 
-Everything organized in separate packages :
+Everything is organized in separate packages :
 
-com.example
-activities
-Contains all the activities. Classes are all named with Activity at the end. That way, you can immediately know what it is when reading Java code that doesn't have its full package name.
-adapters
-Contains all the adapters.
-authenticator
-Contains any class related to signing a user in. I create a local account and having all related classes together is very handy.
-data
-Contains all classes related to data management such as ContentProvider and SQLiteHelper.
-data.migrations
-Contains all of my SQLite migrations. I created a class for migrations, read about it here, and put them all in this package.
-fragments
-Contains all fragments.
-helpers
-Contains helper classes. A helper class is a place to put code that is used in more than one place. I have a DateHelper for instance. Most of the methods are static.
-interfaces
-Contains all interfaces.
-models
-Contains all local models. When syncing from an HTTP API I parse the JSON into these Java objects using Jackson. I also pull Cursor rows into these models as well.
-preferences
-Contains all classes for custom preferences. When creating the preferences I required a custom PreferenceDialog as well as a custom PreferenceCategory. They live here.
-sync
-Contains all classes related to syncing. I use a SyncAdapter to pull data from an HTTP API. In addition to the SyncAdapter a SyncService is required, so I created a package.
+* com.example
+ * activities
+  * Contains all the activities. Classes are all named with Activity at the end. That way, you can immediately know what it is when reading Java code that doesn't have its full package name.
+ * adapters
+  * Contains all the adapters.
+ * authenticator
+  * Contains any class related to signing a user in. I create a local account and having all related classes together is very handy.
+ * data
+  * Contains all classes related to data management such as ContentProvider and SQLiteHelper.
+ * data.migrations
+  * Contains all of my SQLite migrations. I created a class for migrations, read about it here, and put them all in this package.
+ * fragments
+  * Contains all fragments.
+ * helpers
+  * Contains helper classes. A helper class is a place to put code that is used in more than one place. I have a DateHelper for instance. Most of the methods are static.
+ * interfaces
+  * Contains all interfaces.
+ * models
+  * Contains all local models. When syncing from an HTTP API I parse the JSON into these Java objects using Jackson. I also pull Cursor rows into these models as well.
+ * preferences
+  * Contains all classes for custom preferences. When creating the preferences I required a custom PreferenceDialog as well as a custom PreferenceCategory. They live here.
+ * sync
+  * Contains all classes related to syncing. I use a SyncAdapter to pull data from an HTTP API. In addition to the SyncAdapter a SyncService is required, so I created a package.
  
-
 ## 1.2 File naming
 
 ### 1.2.1 Class files
