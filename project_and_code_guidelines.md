@@ -1,3 +1,5 @@
+Modified version of the excellent work available here https://github.com/ribot/android-guidelines. I just added some stuffs and made some modifications regarding my personnal needs.
+
 # 1. Project guidelines
 
 ## 1.1 Project structure
