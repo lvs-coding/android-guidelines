@@ -26,6 +26,7 @@ Naming conventions for drawables:
 | Button       | `btn_`	            | `btn_send_pressed.9.png`    |
 | Dialog       | `dialog_`         | `dialog_top.9.png`          |
 | Divider      | `divider_`        | `divider_horizontal.9.png`  |
+| EditText     |  `et_`            | `et_name`                   |
 | Icon         | `ic_`	            | `ic_star.png`               |
 | Menu         | `menu_	`           | `menu_submenu_bg.9.png`     |
 | Notification | `notification_`	| `notification_bg.9.png`     |
