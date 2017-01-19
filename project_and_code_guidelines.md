@@ -63,6 +63,7 @@ Naming conventions for drawables:
 | Tabs         | `tab_`            | `tab_pressed.9.png`         |
 | TextView     | `tv_`             | `tv_phone_number`|
 | ToggleButton | `tb_` | `tb_view`|
+| ViewPager | `vp_` | `vp_slider` |
 
 Naming conventions for icons (taken from [Android iconography guidelines](http://developer.android.com/design/style/iconography.html)):
 
