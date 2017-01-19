@@ -49,6 +49,7 @@ Naming conventions for drawables:
 | Dialog       | `dialog_`         | `dialog_top.9.png`          |
 | Divider      | `divider_`        | `divider_horizontal.9.png`  |
 | EditText     |  `et_`            | `et_name`                   |
+| Fragment| `frag_`| `frag_scrollbook`|
 | FrameLayout| `fl_`|`fl_main`|
 | GalleryView | `gv_` | `gv_photos`|
 | Icon         | `ic_`	            | `ic_star.png`               |
