@@ -43,24 +43,24 @@ Naming conventions for drawables:
 
 | Asset Type   | Prefix            |		Example               |
 |--------------| ------------------|-----------------------------|
-| Action bar   | `ab_`             | `ab_stacked.9.png`          |
-| Button       | `btn_`	            | `btn_send_pressed.9.png`    |
+| Action bar   | `ab_`             | `ab_stacked`          |
+| Button       | `btn_`	            | `btn_send`    |
 | Checkbox     | `chk_`| `chk_night`|
-| Dialog       | `dialog_`         | `dialog_top.9.png`          |
-| Divider      | `divider_`        | `divider_horizontal.9.png`  |
+| Dialog       | `dialog_`         | `dialog_top`          |
+| Divider      | `divider_`        | `divider_horizontal`  |
 | EditText     |  `et_`            | `et_name`                   |
 | Fragment| `frag_`| `frag_scrollbook`|
 | FrameLayout| `fl_`|`fl_main`|
 | GalleryView | `gv_` | `gv_photos`|
-| Icon         | `ic_`	            | `ic_star.png`               |
+| Icon         | `ic_`	            | `ic_star`               |
 | ListView | `lv_` | `lv_category`|
 | LinearLayout | `ll_` | `ll_appendix`|
-| Menu         | `menu_	`           | `menu_submenu_bg.9.png`     |
-| Notification | `notification_`	| `notification_bg.9.png`     |
+| Menu         | `menu_	`           | `menu_submenu`     |
+| Notification | `notification_`	| `notification_bg`     |
 | RadioButton | `rb_` | `rb_language`|
 | RelativeLayout| `rl_` | `rl_flowers`|
 | Spinner | `spn_` | `spn_age`|
-| Tabs         | `tab_`            | `tab_pressed.9.png`         |
+| Tabs         | `tab_`            | `tab_pressed`         |
 | TextView     | `tv_`             | `tv_phone_number`|
 | ToggleButton | `tb_` | `tb_view`|
 | ViewPager | `vp_` | `vp_slider` |
@@ -80,11 +80,11 @@ Naming conventions for selector states:
 
 | State	       | Suffix          | Example                     |
 |--------------|-----------------|-----------------------------|
-| Normal       | `_normal`       | `btn_order_normal.9.png`    |
-| Pressed      | `_pressed`      | `btn_order_pressed.9.png`   |
-| Focused      | `_focused`      | `btn_order_focused.9.png`   |
-| Disabled     | `_disabled`     | `btn_order_disabled.9.png`  |
-| Selected     | `_selected`     | `btn_order_selected.9.png`  |
+| Normal       | `_normal`       | `btn_order_normal`    |
+| Pressed      | `_pressed`      | `btn_order_pressed`   |
+| Focused      | `_focused`      | `btn_order_focused`   |
+| Disabled     | `_disabled`     | `btn_order_disabled`  |
+| Selected     | `_selected`     | `btn_order_selected`  |
 
 
 #### 1.2.2.2 Layout files
