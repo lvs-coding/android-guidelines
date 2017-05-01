@@ -6,6 +6,8 @@ I just added some stuffs and made some modifications regarding my personnal need
 * [Project and code style guidelines](project_and_code_guidelines.md)
 * [Architecture Guidelines](architecture_guidelines/android_architecture.md)
 
+Also here's a good link for best practices : https://github.com/futurice/android-best-practices
+
 ### License
 
 ```
